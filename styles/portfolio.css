@@ -1,33 +1,33 @@
 /* Nav Styles */
 .open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
 
-.text-secondary{
+.text-secondary {
     color: #474747;
     font-size: 20px;
 }
 
-.hire-btn{
+.hire-btn {
     font-weight: bold;
     font-size: 20px;
     padding: 20px 35px;
@@ -35,18 +35,85 @@ nav ul{
     color: white;
     border: none;
     border-radius: 5px;
+    margin-right: 230px;
+}
+.download-btn {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 35px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.contact-btn {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 35px;
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
 }
 
-.nav-title{ 
+.dev-img{
+    display: inline-block;
+}
+
+.header{
+    /* margin: 40px 0 25px 25px; */
+    background-image: url("../resources/developer.png") , url("../resources/header_bg.png");
+    background-repeat: no-repeat;
+    /* background-position: 20px , 1000px; */
+    background-position: top left , bottom right;
+    
+
+}
+
+.nav-title {
     font-size: 45px;
     font-weight: 800px;
+    margin-left: 230px;
 }
 
-nav li{ 
+nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav a{
-    text-decoration: none ;
+nav a {
+    text-decoration: none;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 500;
+    color: #474747;
+}
+.name{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+    color: #474747;
+    padding-bottom: 30px;
+}
+
+.banner-profile{
+    height: 670px;
+    width: 580px;
+    margin-right: 40px ;
+}
+
+.banner-content{
+    height: 350px;
+    width: 580px;
+    margin-left: 230px;
+}
+
+.banner{
+    display: flex;
+     justify-content: space-between;
 }
